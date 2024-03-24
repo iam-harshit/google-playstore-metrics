@@ -1,0 +1,425 @@
+{
+    "packageName": "com.example.app1",
+    "downloads": 5000,
+    "ratings": 4.5,
+    "reviews": 200,
+    "revenue": 10000,
+    "installs": 10000,
+    "activeInstalls": 8000,
+    "uninstalls": 500,
+    "retentionRate": 80,
+    "crashReports": 10,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Male",
+        "location": "USA"
+    }
+}
+    {
+    "packageName": "com.example.app2",
+    "downloads": 8000,
+    "ratings": 4.8,
+    "reviews": 300,
+    "revenue": 15000,
+    "installs": 15000,
+    "activeInstalls": 12000,
+    "uninstalls": 700,
+    "retentionRate": 85,
+    "crashReports": 15,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Female",
+        "location": "UK"
+    }
+}
+    {
+    "packageName": "com.example.app3",
+    "downloads": 3000,
+    "ratings": 4.2,
+    "reviews": 150,
+    "revenue": 8000,
+    "installs": 12000,
+    "activeInstalls": 10000,
+    "uninstalls": 300,
+    "retentionRate": 90,
+    "crashReports": 5,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Female",
+        "location": "Canada"
+    }
+}
+    {
+    "packageName": "com.example.app4",
+    "downloads": 10000,
+    "ratings": 4.9,
+    "reviews": 500,
+    "revenue": 20000,
+    "installs": 20000,
+    "activeInstalls": 18000,
+    "uninstalls": 1000,
+    "retentionRate": 90,
+    "crashReports": 20,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Male",
+        "location": "Germany"
+    }
+}
+    {
+    "packageName": "com.example.app5",
+    "downloads": 7000,
+    "ratings": 4.7,
+    "reviews": 250,
+    "revenue": 12000,
+    "installs": 9000,
+    "activeInstalls": 7000,
+    "uninstalls": 200,
+    "retentionRate": 75,
+    "crashReports": 8,
+    "userDemographics": {
+        "ageGroup": "35-44",
+        "gender": "Male",
+        "location": "Australia"
+    }
+}
+    {
+    "packageName": "com.example.app6",
+    "downloads": 6000,
+    "ratings": 4.6,
+    "reviews": 220,
+    "revenue": 11000,
+    "installs": 11000,
+    "activeInstalls": 9000,
+    "uninstalls": 400,
+    "retentionRate": 82,
+    "crashReports": 12,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Male",
+        "location": "France"
+    }
+}
+    {
+    "packageName": "com.example.app7",
+    "downloads": 4000,
+    "ratings": 4.4,
+    "reviews": 180,
+    "revenue": 9000,
+    "installs": 8000,
+    "activeInstalls": 6000,
+    "uninstalls": 200,
+    "retentionRate": 75,
+    "crashReports": 6,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Female",
+        "location": "Japan"
+    }
+}
+    {
+    "packageName": "com.example.app8",
+    "downloads": 9000,
+    "ratings": 4.9,
+    "reviews": 400,
+    "revenue": 18000,
+    "installs": 19000,
+    "activeInstalls": 17000,
+    "uninstalls": 1000,
+    "retentionRate": 89,
+    "crashReports": 18,
+    "userDemographics": {
+        "ageGroup": "35-44",
+        "gender": "Female",
+        "location": "Brazil"
+    }
+}
+    {
+    "packageName": "com.example.app9",
+    "downloads": 12000,
+    "ratings": 4.8,
+    "reviews": 550,
+    "revenue": 25000,
+    "installs": 22000,
+    "activeInstalls": 20000,
+    "uninstalls": 1500,
+    "retentionRate": 91,
+    "crashReports": 25,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Male",
+        "location": "India"
+    }
+}
+    {
+    "packageName": "com.example.app10",
+    "downloads": 15000,
+    "ratings": 4.7,
+    "reviews": 650,
+    "revenue": 30000,
+    "installs": 25000,
+    "activeInstalls": 23000,
+    "uninstalls": 2000,
+    "retentionRate": 92,
+    "crashReports": 30,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Female",
+        "location": "China"
+    }
+}
+    {
+    "packageName": "com.example.app11",
+    "downloads": 11000,
+    "ratings": 4.6,
+    "reviews": 500,
+    "revenue": 22000,
+    "installs": 21000,
+    "activeInstalls": 19000,
+    "uninstalls": 1000,
+    "retentionRate": 90,
+    "crashReports": 20,
+    "userDemographics": {
+        "ageGroup": "35-44",
+        "gender": "Male",
+        "location": "United States"
+    }
+}
+    {
+    "packageName": "com.example.app12",
+    "downloads": 8000,
+    "ratings": 4.5,
+    "reviews": 400,
+    "revenue": 17000,
+    "installs": 18000,
+    "activeInstalls": 16000,
+    "uninstalls": 1000,
+    "retentionRate": 88,
+    "crashReports": 15,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Female",
+        "location": "Germany"
+    }
+}
+    {
+    "packageName": "com.example.app13",
+    "downloads": 9500,
+    "ratings": 4.4,
+    "reviews": 350,
+    "revenue": 19000,
+    "installs": 21000,
+    "activeInstalls": 19000,
+    "uninstalls": 1500,
+    "retentionRate": 90,
+    "crashReports": 18,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Male",
+        "location": "France"
+    }
+}
+    {
+    "packageName": "com.example.app14",
+    "downloads": 5000,
+    "ratings": 4.3,
+    "reviews": 300,
+    "revenue": 14000,
+    "installs": 15000,
+    "activeInstalls": 14000,
+    "uninstalls": 1000,
+    "retentionRate": 93,
+    "crashReports": 12,
+    "userDemographics": {
+        "ageGroup": "35-44",
+        "gender": "Female",
+        "location": "Canada"
+    }
+}
+    {
+    "packageName": "com.example.app15",
+    "downloads": 7000,
+    "ratings": 4.2,
+    "reviews": 250,
+    "revenue": 16000,
+    "installs": 17000,
+    "activeInstalls": 15000,
+    "uninstalls": 2000,
+    "retentionRate": 88,
+    "crashReports": 25,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Male",
+        "location": "Australia"
+    }
+}
+    {
+    "packageName": "com.example.app16",
+    "downloads": 10000,
+    "ratings": 4.1,
+    "reviews": 450,
+    "revenue": 21000,
+    "installs": 22000,
+    "activeInstalls": 20000,
+    "uninstalls": 2000,
+    "retentionRate": 91,
+    "crashReports": 30,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Female",
+        "location": "United Kingdom"
+    }
+}
+    {
+    "packageName": "com.example.app17",
+    "downloads": 8500,
+    "ratings": 4.0,
+    "reviews": 400,
+    "revenue": 20000,
+    "installs": 21000,
+    "activeInstalls": 19000,
+    "uninstalls": 2000,
+    "retentionRate": 90,
+    "crashReports": 20,
+    "userDemographics": {
+        "ageGroup": "35-44",
+        "gender": "Male",
+        "location": "United States"
+    }
+}
+    {
+    "packageName": "com.example.app18",
+    "downloads": 5500,
+    "ratings": 4.9,
+    "reviews": 300,
+    "revenue": 13000,
+    "installs": 14000,
+    "activeInstalls": 12000,
+    "uninstalls": 2000,
+    "retentionRate": 86,
+    "crashReports": 25,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Female",
+        "location": "India"
+    }
+}
+    {
+    "packageName": "com.example.app19",
+    "downloads": 6500,
+    "ratings": 4.8,
+    "reviews": 350,
+    "revenue": 15000,
+    "installs": 16000,
+    "activeInstalls": 14000,
+    "uninstalls": 2000,
+    "retentionRate": 87,
+    "crashReports": 20,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Male",
+        "location": "Brazil"
+    }
+}
+    {
+    "packageName": "com.example.app20",
+    "downloads": 7500,
+    "ratings": 4.7,
+    "reviews": 400,
+    "revenue": 17000,
+    "installs": 18000,
+    "activeInstalls": 16000,
+    "uninstalls": 2000,
+    "retentionRate": 89,
+    "crashReports": 15,
+    "userDemographics": {
+        "ageGroup": "35-44",
+        "gender": "Female",
+        "location": "Japan"
+    }
+}
+    {
+    "packageName": "com.example.app21",
+    "downloads": 9500,
+    "ratings": 4.6,
+    "reviews": 450,
+    "revenue": 19000,
+    "installs": 20000,
+    "activeInstalls": 18000,
+    "uninstalls": 2000,
+    "retentionRate": 90,
+    "crashReports": 10,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Male",
+        "location": "China"
+    }
+}
+    {
+    "packageName": "com.example.app22",
+    "downloads": 10500,
+    "ratings": 4.5,
+    "reviews": 500,
+    "revenue": 21000,
+    "installs": 22000,
+    "activeInstalls": 20000,
+    "uninstalls": 2000,
+    "retentionRate": 91,
+    "crashReports": 5,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Female",
+        "location": "Germany"
+    }
+}
+    {
+    "packageName": "com.example.app23",
+    "downloads": 11500,
+    "ratings": 4.4,
+    "reviews": 550,
+    "revenue": 22000,
+    "installs": 23000,
+    "activeInstalls": 21000,
+    "uninstalls": 2000,
+    "retentionRate": 92,
+    "crashReports": 10,
+    "userDemographics": {
+        "ageGroup": "35-44",
+        "gender": "Male",
+        "location": "Australia"
+    }
+}
+    {
+    "packageName": "com.example.app24",
+    "downloads": 12500,
+    "ratings": 4.3,
+    "reviews": 600,
+    "revenue": 23000,
+    "installs": 24000,
+    "activeInstalls": 22000,
+    "uninstalls": 2000,
+    "retentionRate": 93,
+    "crashReports": 15,
+    "userDemographics": {
+        "ageGroup": "18-24",
+        "gender": "Female",
+        "location": "India"
+    }
+}
+    {
+    "packageName": "com.example.app25",
+    "downloads": 13500,
+    "ratings": 4.2,
+    "reviews": 650,
+    "revenue": 24000,
+    "installs": 25000,
+    "activeInstalls": 23000,
+    "uninstalls": 2000,
+    "retentionRate": 94,
+    "crashReports": 20,
+    "userDemographics": {
+        "ageGroup": "25-34",
+        "gender": "Male",
+        "location": "United States"
+    }
+}
