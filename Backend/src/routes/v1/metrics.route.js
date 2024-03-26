@@ -10,8 +10,8 @@ router.get("/all", auth, metricsController.getAllMetrics);
 
 router.get("/:metricsId", auth, validate(metricsValidation.getMetric), metricsController.getMetricById);
 
-router.put("/:metricsId", auth, validate(metricsValidation.getMetric), metricsController.updateMetric);
+router.put("/update/:metricsId", auth, validate(metricsValidation.getMetric), metricsController.updateMetric);
 
-router.delete("/:metricsId", auth, validate(metricsValidation.getMetric), metricsController.deleteMetric);
+router.delete("/delete/:metricsId", auth, validate(metricsValidation.getMetric), metricsController.deleteMetric);
 
 module.exports = router;
