@@ -1,29 +1,36 @@
-import React from 'react';
-import { Chart, registerables } from 'chart.js';
-import { Bar } from 'react-chartjs-2';
-import { Paper, Typography } from '@mui/material';
+import React from "react";
+import { Chart, registerables } from "chart.js";
+import { Bar } from "react-chartjs-2";
+import { Typography } from "@mui/material";
+import { Box } from "@mui/system";
 Chart.register(...registerables);
-
 
 const BarChart = ({ data }) => {
   const chartData = {
-    labels: data.map(item => item.packageName),
+    labels: data.map((item) => item.packageName),
     datasets: [
       {
-        label: 'Downloads',
-        data: data.map(item => item.downloads),
-        backgroundColor: 'rgba(75,192,192,0.2)',
-        borderColor: 'rgba(75,192,192,1)',
+        label: "Downloads",
+        data: data.map((item) => item.downloads),
+        backgroundColor: "#4bc0c033",
+        borderColor: "#4bc0c0",
+        borderWidth: 1,
+      },
+      {
+        label: "Uninstalls",
+        data: data.map((item) => item.uninstalls),
+        backgroundColor: "#ff638433",
+        borderColor: "#ff6384",
         borderWidth: 1,
       },
     ],
   };
 
   return (
-    <Paper>
-      <Typography variant="h5">Downloads by Package</Typography>
+    <Box>
+      <Typography variant="h5">Downloads and Uninstalls by Package Name</Typography>
       <Bar data={chartData} />
-    </Paper>
+    </Box>
   );
 };
 

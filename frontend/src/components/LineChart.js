@@ -1,29 +1,31 @@
-import React from 'react';
-import { Chart, registerables } from 'chart.js';
-import { Line } from 'react-chartjs-2';
-import { Paper, Typography } from '@mui/material';
+import React from "react";
+import { Chart, registerables } from "chart.js";
+import { Line } from "react-chartjs-2";
+import { Typography } from "@mui/material";
+import { Box } from "@mui/system";
 Chart.register(...registerables);
-
 
 const LineChart = ({ data }) => {
   const chartData = {
-    labels: data.map(item => item.packageName),
+    labels: data.map((item) => item.packageName),
     datasets: [
       {
-        label: 'Ratings',
-        data: data.map(item => item.ratings),
+        label: "Ratings",
+        data: data.map((item) => item.ratings),
         fill: false,
-        borderColor: 'rgb(75, 192, 192)',
+        borderColor: "#4bc0c0",
         tension: 0.1,
       },
     ],
   };
 
   return (
-    <Paper>
-      <Typography variant="h5">Ratings by Package</Typography>
-      <Line data={chartData}/>
-    </Paper>
+    <Box>
+      <Typography variant="h5">Ratings by Package Name</Typography>
+      <Box >
+      <Line data={chartData} />
+      </Box>
+    </Box>
   );
 };
 

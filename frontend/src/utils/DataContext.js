@@ -1,6 +1,7 @@
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext } from "react";
 import axios from "axios";
-import { API_BASE_URL } from './constants';
+import { API_BASE_URL } from "./constants";
+import { enqueueSnackbar } from "notistack";
 
 const DataContext = createContext();
 
@@ -8,24 +9,33 @@ export const useData = () => useContext(DataContext);
 
 export const DataProvider = ({ children }) => {
   const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
 
   const fetchData = async () => {
+    setIsLoading(true);
     try {
-      const response = await axios.get(API_BASE_URL + '/all', {
-        headers:{
-          "Authorization" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2NjAxODBhNTIxODBlZDdlYTQzNGRmYTUiLCJ0eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExNDQ1MTU0LCJpYXQiOjE3MTE0MzA3NTQuODIzfQ.-8yb8uCrbQwKqx6F1VlcnXJ2GouERdCYxT2V8H_PBxQ"
-        }
+      const token = localStorage.getItem("token");
+      const response = await axios.get(`${API_BASE_URL}/metrics/all`, {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
       });
-      console.log(response);
       setData(response.data);
     } catch (error) {
-      console.error('Error fetching data:', error);
-      // Handle error (e.g., show error message)
+      if (error.response.status === 401) {
+        enqueueSnackbar(error.response.data.message, { variant: "error" });
+      } else {
+        enqueueSnackbar(
+          "Something went wrong. Check that the backend is running, reachable and returns valid JSON.",
+          { variant: "error" }
+        );
+      }
     }
+    setIsLoading(false);
   };
 
   return (
-    <DataContext.Provider value={{ data, fetchData }}>
+    <DataContext.Provider value={{ data, isLoading, fetchData }}>
       {children}
     </DataContext.Provider>
   );

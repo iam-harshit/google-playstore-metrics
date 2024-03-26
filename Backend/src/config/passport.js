@@ -25,7 +25,7 @@ const { User } = require("../models/user.model");
       return done(new Error("Token expired, please re-login"), false);
     }
 
-    const user = await User.findById(payload.sub) //payload.user._id 
+    const user = await User.findById(payload.sub) 
     if(!user){
       return done(null, false);
     }
