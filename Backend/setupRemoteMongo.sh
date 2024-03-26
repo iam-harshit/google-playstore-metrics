@@ -1,0 +1,2 @@
+# Setup file template to upload data to MongoDB Atlas
+mongoimport --uri "mongodb://ac-ksaanb3-shard-00-00.nlcjfda.mongodb.net:27017,ac-ksaanb3-shard-00-01.nlcjfda.mongodb.net:27017,ac-ksaanb3-shard-00-02.nlcjfda.mongodb.net:27017/gpm?replicaSet=atlas-swl0kb-shard-0" --ssl --authenticationDatabase admin --username harshitkumar --password jOrzz1FnA3MadyBO --drop --collection metrics --file data/export_google_playstore_metrics.json
